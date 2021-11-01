@@ -3,6 +3,9 @@ Build a serverless architecture for image analysis
 
 ![Screenshot](Architecture.png)
 
+
+Rodar o `npm install` antes de subir a aplicação.
+
 ## extractMetadata
 A função `extractMetadata` é disparada quando alguma imagem é colocada no Bucket(nomeado no arquivo `serverless.yml`) dentro da pasta uploads que precisa ser criada após subir o código no Bucket especificado e salva as informações da imagem no DynamoDB.
 
