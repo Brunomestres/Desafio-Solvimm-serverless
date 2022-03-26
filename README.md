@@ -1,7 +1,4 @@
-# serverless-challenge
-Build a serverless architecture for image analysis 
-
-![Screenshot](Architecture.png)
+# serverless
 
 
 Rodar o `npm install` antes de subir a aplicação.
