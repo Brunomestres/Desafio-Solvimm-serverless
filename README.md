@@ -1,5 +1,18 @@
-# serverless
+# Nome do meu projeto
 
+
+
+| :placard: Vitrine.Dev |     |
+| -------------  | --- |
+| :sparkles: Nome        | **Titulo do meu projeto**
+| :label: Tecnologias | java, html, ruby, c# (tecnologias utilizadas)
+| :rocket: URL         | https://url-deploy.com.br
+| :fire: Desafio     | https://url-do-desafio.com.br
+
+<!-- Inserir imagem com a #vitrinedev ao final do link -->
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHFhKfnxTVqkx8Tj1GstjgJGvIbtRLHdfheA&usqp=CAU?text=imagem+lindona+do+meu+projeto#vitrinedev)
+
+## Detalhes do projeto
 
 Rodar o `npm install` antes de subir a aplicação.
 
@@ -31,20 +44,6 @@ A função `infoImage` é disparada quando acessada a url criada pelo Lambda no 
 
 A função vai buscar no DynamoDB todos os itens. Depois de buscar os itens é filtrado a maior e a menor imagem salva no banco de dados com o reduce, em seguida é extraido as extensões de todos os itens com `extname` do pacote `path`. A função retorna a maior imagem, a menor imagem, os tipos das imagens e a quantidade de tipos salvas no DynamoDB.
 
-## Alterações no serverless.yml
 
-*  Adicionei mais uma variável de ambiente:
-```
-environment:
-    bucket: nomedobucket
-```
 
-* Adicionei o `binaryMediaTypes` para permitir baixar a imagem:
-```
-apiGateway:
-    binaryMediaTypes:
-      - '*/*'
-```
 
-* Coloquei na Action `s3:GetObject` para poder buscar arquivos no bucket.
-* Adicionei mais 2 eventos de S3 para disparar o gatilho com os suffix de png e jpeg.
