@@ -1,11 +1,12 @@
-# Nome do meu projeto
-
+# Serverless Lambda com NodeJS
+Esse projeto foi criado com uma proposta para um desafio de processo seletivo, com o intuito de exemplificar o funcionamento de uma aplicação serverless rodando 
+na AWS. Ela basicamente pega uma imagem do S3 e salva suas informações no DynamoDB, também disponibiliza suas informações em rotas criada pela API Gateway.
 
 
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
-| :sparkles: Nome        | **Titulo do meu projeto**
-| :label: Tecnologias | java, html, ruby, c# (tecnologias utilizadas)
+| :sparkles: Nome        | **Serverless Lambda com NodeJS**
+| :label: Tecnologias | NodeJS, AWS-Lambda
 | :rocket: URL         | https://url-deploy.com.br
 | :fire: Desafio     | https://url-do-desafio.com.br
 
