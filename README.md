@@ -1,5 +1,5 @@
 # Serverless Lambda com NodeJS
-Esse projeto foi criado com uma proposta para um desafio de processo seletivo, com o intuito de exemplificar o funcionamento de uma aplicação serverless rodando 
+Esse projeto tem o intuito de exemplificar o funcionamento de uma aplicação serverless rodando 
 na AWS. Ela basicamente pega uma imagem do S3 e salva suas informações no DynamoDB, também disponibiliza suas informações em rotas criada pela API Gateway, as funções 
 são descritas melhores abaixo.
 
